@@ -146,4 +146,57 @@
 // }
 
 
+//left rotate  by 1 element
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int arr[]={1,2,3,4,5,6};
+//     int n=6;
+//     int temp=arr[0];
+//     for(int i=0;i<n;i++){
+//         arr[i-1]=arr[i];
+
+//     }
+//     arr[n-1]=temp;
+//     for(int i=0;i<n;i++){
+//         cout<<arr[i]<<" ";
+//     }
+//     return 0;
+// }
+
+//left rotate by d places
+
+// #include <iostream>
+// using namespace std;
+// void reverse(int arr[],int st,int end){
+//     while(st<=end){
+//         int temp=arr[st];
+//         arr[st]=arr[end];
+//         arr[end]=temp;
+//         st++;
+//         end--;
+//     }
+
+// }
+// void rotatelements(int arr[],int k,int n){
+//     k=k%n;
+   
+//     // Reverse first n-k elements
+//     reverse(arr,0,n-k-1);
+//     reverse(arr,n-k,n-1);
+//     reverse(arr,0,n-1);
+// }
+// int main() {
+//     int arr[]={1,2,3,4,5,6,7};
+//     int n=7;
+//     int k=3;
+//     rotatelements(arr,k,n);
+//     for(int i=0;i<n;i++){
+//         cout<<arr[i]<<" ";
+//     }
+//     return 0;
+// }
+
 // }
