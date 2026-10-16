@@ -64,6 +64,5 @@ DSA_007/
 │   ├── Binary_Search/      1 solution
 │   ├── Bit_Manipulation/   1 solution
 │   └── Two_Pointers/       2 solutions
-├── 1st_striver.cpp         Striver sheet practice programs (commented out)
-└── 1st_striver             compiled binary of 1st_striver.cpp (macOS arm64)
+└── 1st_striver.cpp         Striver sheet practice programs (commented out)
 ```
