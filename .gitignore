@@ -1,3 +1,8 @@
 .vscode/
 .DS_Store
 *.out
+
+# Compiled C++ binaries (build with g++ -o <name> <name>.cpp)
+1st_striver
+*.o
+a.out
