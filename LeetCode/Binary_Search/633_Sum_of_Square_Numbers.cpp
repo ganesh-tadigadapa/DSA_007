@@ -8,11 +8,12 @@ public:
              if(sum==c){
                 return true;
              }
-             else if(sum<c){
+             else if(sum>c){
+             b--;
+             }
+             else {
                 a++;
              }
-             else 
-             b--;
         }
         return false;
     }
